@@ -71,7 +71,7 @@ main {
     gap: 20px;
 }
 
-.about h1 {
+main h1 {
     font-size: 100px;
     text-align: left;
     text-decoration: underline;
