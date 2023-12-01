@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-color: rgb(181, 184, 183);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container img {
+    width: 700px;
+    margin-left: 450px;
+}
+
+.card {
+    margin-left: 500px;
+    padding: 50px;
+    background-color: black;
+    width: 500px;
+    height: 430px;
+    margin-top: -85px;
+}
+
+.card p {
+    color: white;
+    font-size: 13px;
+    text-align: justify;
+}
+
