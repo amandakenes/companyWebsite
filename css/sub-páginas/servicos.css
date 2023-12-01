@@ -6,8 +6,13 @@
     font-family: 'Inter', sans-serif;
 }
 
+main {
+    background-color: rgba(206, 182, 152, 0.253);
+}
+
 .services-info {
-    border: 12px solid rgb(206, 182, 152);
+    border: 12px solid #0071bd;
+    border-radius: 4px;
     height: 80px;
     padding: 15px;
 }
@@ -23,7 +28,42 @@
     font-size: 15px;
 }
 
-table, th, td {
-    border: 1px solid black;
-    padding: 30px;
+.services-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-table {
+    border: 10px solid #0071bd;
+    width: 70%;
+    margin-left: 250px;
+}
+
+.table-head, td {
+    padding: 15px;
+}
+
+td {
+    height: 85px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.table-head {
+    border-bottom: 1px solid;
+}
+
+.table-data {
+    border-bottom: 1px solid #0071bdad;
+}
+
+#shakingHands {
+    width: 130px ;
+}
+
+legend {
+    font-size: 9px;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
 }
