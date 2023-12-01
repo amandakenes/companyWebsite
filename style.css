@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --logo-blue: #0071bd;
+  --logo-orange: #f8931f;
+  --logo-purple: #7a5491;
+  --white: #ffffff;
+  --black: #14130f;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(206, 182, 152);
+  height: 80px;
+}
+
+.header-img img {
+  width: 80px;
+  margin-left: 150px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  margin-right: 200px;
+}
+
+header ul li a {
+  font-size: 14x;
+  text-transform: lowercase;
+  color: var(--black);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 8px;
+  color: #0071bd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#header-item-even:hover {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 8px;
+  color: var(--logo-purple);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+}
+
+.about h1 {
+  font-size: 130px;
+  text-decoration: underline;
+  color: var(--white);
+  font-weight: bold;
+  width: 40px;
+  margin-bottom: 70px;
+}
+
+.about-img img {
+  width: 740px;
+  margin-right: 120px;
+}
+
+.about-img legend {
+  font-size: 10px;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  margin-right: 10px;
+  width: 740px;
+}
+
+.about-text {
+  width: 740px;
+}
+
+.about-text p {
+  margin-top: 10px;
+  color: var(--white);
+  font-size: 15px;
+  text-align: justify;
+}
