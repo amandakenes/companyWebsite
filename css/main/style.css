@@ -106,3 +106,22 @@ header ul li a {
   font-size: 15px;
   text-align: justify;
 }
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  border: 5px solid;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 12px;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 10px;
+}
